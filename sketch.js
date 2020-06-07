@@ -14,7 +14,7 @@ function setup() {
 	engine = Engine.create(); 
 	world = engine.world; 
 	dustbinObject= new dustbin(1200,650);
-	paperBall= new paper(200,450,40);
+	paperBall= new paper(200,440,40);
 	groundObject= new ground(width/2,670,width,20);
 	//Create a Ground 
 	var render = Render.create({ element: document.body, engine: engine, options: { width: 1200, height: 700, wireframes: false } }); 
