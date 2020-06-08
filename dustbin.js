@@ -7,6 +7,7 @@ class dustbin{
 		this.dustbinHeight=100;
 		this.wallThickness=20;
 		this.angle=0;	
+		this.dustbinObject = ("dustbin.png");
 		
 		this.bottomBody=Bodies.rectangle(this.x, this.y, this.dustbinWidth, this.wallThickness, {isStatic:true})
 		this.leftWallBody=Bodies.rectangle(this.x-this.dustbinWidth/2, this.y-this.dustbinHeight/2, this.wallThickness, this.dustbinHeight, {isStatic:true})
@@ -33,9 +34,9 @@ class dustbin{
 			translate(posLeft.x, posLeft.y);
 			rectMode(CENTER)
 			//strokeWeight(4);
-			angleMode(RADIANS)
-			fill(255)
-			stroke(255)
+			//angleMode(RADIANS)
+			//fill(255)
+			//stroke(255)
 			rotate(this.angle)
 			rect(0,0,this.wallThickness, this.dustbinHeight);
 			pop()
@@ -44,21 +45,21 @@ class dustbin{
 			translate(posRight.x, posRight.y);
 			rectMode(CENTER)
 			//strokeWeight(4);
-			stroke(255)
-			angleMode(RADIANS)
-			fill(255)
-			rotate(-1*this.angle)
-			rect(0,0,this.wallThickness, this.dustbinHeight);
+			//stroke(255)
+			//angleMode(RADIANS)
+			//fill(255)
+			//rotate(-1*this.angle)
+			//rect(0,0,this.wallThickness, this.dustbinHeight);
 			pop()
 
 			push()
 			translate(posBottom.x, posBottom.y);
 			rectMode(CENTER)
 			//strokeWeight(4);
-			stroke(255)
-			angleMode(RADIANS)
-			fill(255)
-			rect(0,0,this.dustbinWidth, this.wallThickness);
+			//stroke(255)
+			//angleMode(RADIANS)
+			//fill(255)
+			//rect(0,0,this.dustbinWidth, this.wallThickness);
 			pop()
 			
 	}
