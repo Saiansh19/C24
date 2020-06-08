@@ -26,7 +26,7 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
-  background(0);
+  background("grey");
 
   dustbinObject.display(); 
   paperBall.display(); 
