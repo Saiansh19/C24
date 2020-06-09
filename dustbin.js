@@ -3,10 +3,10 @@ class dustbin{
 	constructor(x,y){
 		this.x=x;
 		this.y=y;
-		this.dustbinWidth=200;
-		this.dustbinHeight=100;
-		this.wallThickness=20;
-		this.angle=0;	
+		//this.dustbinWidth=200;
+		//this.dustbinHeight=100;
+		//this.wallThickness=20;
+		//this.angle=0;	
 		this.dustbinObject = ("dustbin.png");
 		
 		//this.bottomBody=Bodies.rectangle(this.x, this.y, this.dustbinWidth, this.wallThickness, {isStatic:true})
