@@ -18,7 +18,7 @@ class paper{
     display(){
         var paperPos = this.body.position;
         push();
-        translate(paperPos.x, paperPos.y);
+        //translate(paperPos.x, paperPos.y);
         rectMode(CENTER);
         //strokeWeight(3);
         //fill(255,0,255);
